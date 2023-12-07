@@ -7,14 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiVoiceHttpApi", "AiVoiceHt
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CC49DED6-94D5-4AAF-A027-8BF00DA26AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC49DED6-94D5-4AAF-A027-8BF00DA26AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC49DED6-94D5-4AAF-A027-8BF00DA26AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC49DED6-94D5-4AAF-A027-8BF00DA26AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC49DED6-94D5-4AAF-A027-8BF00DA26AFB}.Debug|x64.ActiveCfg = Debug|x64
+		{CC49DED6-94D5-4AAF-A027-8BF00DA26AFB}.Debug|x64.Build.0 = Debug|x64
+		{CC49DED6-94D5-4AAF-A027-8BF00DA26AFB}.Release|x64.ActiveCfg = Release|x64
+		{CC49DED6-94D5-4AAF-A027-8BF00DA26AFB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
