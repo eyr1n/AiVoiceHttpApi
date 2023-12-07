@@ -56,12 +56,12 @@
   <ItemGroup>
     <Compile Include="AiVoice.cs" />
     <Compile Include="Extensions.cs" />
-    <Compile Include="HostResource.cs" />
-    <Compile Include="MasterControlResource.cs" />
+    <Compile Include="Resources\HostResource.cs" />
+    <Compile Include="Resources\MasterControlResource.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SynthesisResource.cs" />
-    <Compile Include="VoicePresetResource.cs" />
+    <Compile Include="Resources\SynthesisResource.cs" />
+    <Compile Include="Resources\VoicePresetResource.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -3,7 +3,7 @@ using Grapevine.Server.Attributes;
 using Grapevine.Shared;
 using System;
 
-namespace AiVoiceHttpApi
+namespace AiVoiceHttpApi.Resources
 {
     [RestResource(BasePath = "/voicepreset")]
     internal class VoicePresetResource

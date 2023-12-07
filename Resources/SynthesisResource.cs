@@ -5,7 +5,7 @@ using Grapevine.Shared;
 using System;
 using System.IO;
 
-namespace AiVoiceHttpApi
+namespace AiVoiceHttpApi.Resources
 {
     [RestResource(BasePath = "/synthesis")]
     internal class SynthesisResource

@@ -4,7 +4,7 @@ using Grapevine.Server.Attributes;
 using Grapevine.Shared;
 using System;
 
-namespace AiVoiceHttpApi
+namespace AiVoiceHttpApi.Resources
 {
     [RestResource(BasePath = "/host")]
     internal class HostResource

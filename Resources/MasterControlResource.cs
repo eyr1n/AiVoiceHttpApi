@@ -4,7 +4,7 @@ using Grapevine.Shared;
 using Newtonsoft.Json;
 using System;
 
-namespace AiVoiceHttpApi
+namespace AiVoiceHttpApi.Resources
 {
     [RestResource(BasePath = "/mastercontrol")]
     internal class MasterControlResource
