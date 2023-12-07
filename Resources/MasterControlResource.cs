@@ -6,7 +6,7 @@ using System;
 
 namespace AiVoiceHttpApi.Resources
 {
-    [RestResource(BasePath = "/mastercontrol")]
+    [RestResource(BasePath = "/master-control")]
     internal class MasterControlResource
     {
         [RestRoute(HttpMethod = HttpMethod.GET)]

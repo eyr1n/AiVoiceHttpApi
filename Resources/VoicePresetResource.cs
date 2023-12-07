@@ -5,7 +5,7 @@ using System;
 
 namespace AiVoiceHttpApi.Resources
 {
-    [RestResource(BasePath = "/voicepreset")]
+    [RestResource(BasePath = "/voice-preset")]
     internal class VoicePresetResource
     {
         [RestRoute(HttpMethod = HttpMethod.GET)]
