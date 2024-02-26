@@ -20,6 +20,9 @@ namespace AiVoiceHttpApi
             {
                 server.Host = "+";
                 server.Port = args.Length > 0 ? args[0] : "8080";
+                server.Router.BeforeRouting += (context) => {
+                    context.Response.AddHeader("Access-Control-Allow-Origin", "*");
+                };
                 server.OnAfterStop += () =>
                 {
                     ev.Set();
