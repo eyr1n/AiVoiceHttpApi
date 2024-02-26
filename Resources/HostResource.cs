@@ -19,7 +19,6 @@ namespace AiVoiceHttpApi.Resources
         [RestRoute(HttpMethod = HttpMethod.POST, PathInfo = "/[index]")]
         public IHttpContext SetHost(IHttpContext context)
         {
-            context.Server.Stop();
             try
             {
                 int index = context.GetPathParameter<int>("index");

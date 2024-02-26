@@ -18,6 +18,7 @@ namespace AiVoiceHttpApi
 
             using (RestServer server = new RestServer())
             {
+                server.Host = "+";
                 server.Port = args.Length > 0 ? args[0] : "8080";
                 server.OnAfterStop += () =>
                 {
