@@ -16,7 +16,7 @@ namespace AiVoiceHttpApi.Resources
             try
             {
                 Synthesis play = context.GetJsonPayload<Synthesis>();
-                string path = Path.GetTempPath() + "aivoice_web_api.wav";
+                string path = Path.GetTempPath() + "aivoice_http_api.wav";
                 AiVoice.Instance.TtsControl.Text = play.Text;
                 AiVoice.Instance.TtsControl.SaveAudioToFile(path);
 
